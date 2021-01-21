@@ -32,9 +32,10 @@ h1{
 }
 
 .col{
-  width: calc(25% - 1rem);
-  margin: 0rem;
+  /*width: calc(25% - 1rem);*/
+  margin-top: 30px;
   cursor: pointer;
+  align-self: center;
 }
 
 .container{
@@ -63,6 +64,7 @@ h1{
 	border-radius: 10px;
 	color: #fff;
 	font-size: 1.5rem;
+  width: 15rem;
 }
 
 /*.back{
@@ -100,7 +102,7 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .front .inner{
@@ -109,7 +111,7 @@ h1{
     margin-top: 50px;
     position: absolute;
     width: 100%;
-    padding: 2rem;
+    /*padding: 2rem;*/
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     outline: 1px solid transparent;
@@ -180,7 +182,7 @@ h1{
   font-weight: 300;
 }
 
-@media screen and (max-width: 64rem){
+/*@media screen and (max-width: 64rem){
   .col{
     width: calc(33.333333% - 2rem);
   }
@@ -197,4 +199,4 @@ h1{
     width: 100%;
     margin: 0 0 2rem 0;
   }
-}
+}*/
